@@ -147,34 +147,6 @@ a least-cost solution to the problem, in order to discard partial solutions with
 lowest-cost solution found so far. Normally BFS traversal in combination with DFS traversal of state-space
 tree is being used.
 
-## How to use this repository
-
-**Install all dependencies**
-```
-npm install
-```
-
-**Run all tests**
-```
-npm test
-```
-
-**Run tests by name**
-```
-npm test -- -t 'LinkedList'
-```
-
-**Playground**
-
-You may play with data-structures and algorithms in `./src/playground/playground.js` file and write
-tests for it in `./src/playground/__test__/playground.test.js`.
-
-Then just simply run the following command to test if your playground code works as expected:
-
-```
-npm test -- -t 'playground'
-```
-
 ## Useful Information
 
 ### References
